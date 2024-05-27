@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CREATING LAND</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">	
+</head>
+<body>
+<section class="sub-header">
+	<nav>
+		<a href="index.html"><img src="images/Logo.png"></a> 
+        <div class="nav-links" id="navLinks">
+		   <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+				<li><a href="index.html">HOME</a></li>
+			    <li><a href="about.html">ABOUT</a></li>
+				<li><a href="works.html">WORKS</a></li>
+				<li><a href="blog.html">BLOG</a></li>
+				<li><a href="contact.html">CONTACT</a></li>
+			</ul>
+		</div>
+		<i class="fa fa-bars" onclick="showMenu()"></i>
+	</nav>
+	<h1>Our Works</h1>
+</section>
+
+<!------- Works -------->
+
+<section class="works">
+    <h1>Works we'll do</h1>
+	<p>For our works we will do many exiting things.</p>
+	
+	<div class="row">
+	<div class="works-col">
+		<a href="rubix-cube.html" class="super">How To Solve A Rubix Cube </a>
+			<p>You can learn how to really solve a rubix cube from this site .</p>
+	</div>
+	<div class="works-col"> 
+		    <a href="" class="super">A Simple Boat Made With<br>Wood</a>
+			<p>We'll learn how to make a simple boat with wood (or cardboard).</p>
+	</div>		
+	<div class="works-col"> 
+		    <a href="" class="super">Simple Tips About<br>Electricity</a>
+			<p>We'll learn some simple tips about electricity like the positive and negetive parts in a circuit.</p>		
+        </div>
+    </div>		
+	    
+	
+</section>
+
+<!------- Electrical Equipments -------->
+
+<section class="electricalequipments">
+    <h1>Some Useful Electrical Equipments</h1>
+	<p>There are some simple electrical equipments you would need need to know.</p>
+	
+    <div class="row">
+        <div class="electricalequipments-col">
+            <img src="images/Rotor.jpg"alt="">	
+            <h3>Rotor</h3>	
+            <p>This mini device can be used in simple experiments or projects its head spins when attached to a battery.</p>			
+		</div>
+        <div class="electricalequipments-col">
+            <img src="images/Battery.jpg"alt="">	
+            <h3>Battery</h3>	
+            <p>This could be famliar, it is a cell used to power other equipments like the rotor...</p>			
+		</div>
+		<div class="electricalequipments-col">
+            <img src="images/Wires.jpg"alt="">	
+            <h3>Wires</h3>	
+            <p>These are simply just metals that have a plastic coating and is used to conduct electricity from a battery to an equipment.</p>			
+		</div>
+	</div>
+	
+
+</section>
+<!----- Footer -------->
+
+<section class="footer">
+    <h4>About Us</h4>
+	<p>We are a new team, that want to teach our interested<br> young kids simple things and build their talent</p>
+    <div class="icons">
+	    <i class="fa fa-facebook"></i>
+		<i class="fa fa-twitter"></i>
+		<i class="fa fa-instagram"></i>
+		<i class="fa fa-linkedin"></i>
+	</div>
+	<p>Made with <i class="fa fa-heart-o"></i> by Creating Land</p>
+</section>
+
+
+<!--------JavaScrpt for Toggle Menu------->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+	
+	function showMenu(){
+	    navLinks.style.right = "0";
+	}
+	function hideMenu(){
+	    navLinks.style.right = "-200px";
+	}	
+
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+

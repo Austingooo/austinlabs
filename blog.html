@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CREATING LAND</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">	
+</head>
+<body>
+<section class="sub-header">
+	<nav>
+		<a href="index.html"><img src="images/Logo.png"></a>
+        <div class="nav-links" id="navLinks">
+		   <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+				<li><a href="index.html">HOME</a></li>
+			    <li><a href="about.html">ABOUT</a></li>
+				<li><a href="works.html">WORKS</a></li>
+				<li><a href="blog.html">BLOG</a></li>
+				<li><a href="contact.html">CONTACT</a></li>
+			</ul>
+		</div>
+		<i class="fa fa-bars" onclick="showMenu()"></i>
+	</nav>
+	<h1>Our Scheduled Dates For Our Big Projects.</h1>
+</section>
+
+<!--------- blog page content ------------>
+
+<section class="blog-content">
+ 
+    <div class="row">
+        <div class="blog-left">
+		    <img src="images/Rotor.jpg">
+			<h2>Our Scheduled Dates For Our Big Projects.</h2>
+			<p>We will schedule our days for our big exiting projects we will make and we will alert you on those special project days.</p>
+			<br>
+			<p>Our very first project to start with, would be the solving of a rubix cube ... When we start this lesson, you will be alerted and you can finally learn to solve a rubix cube, so, stay close.</p>
+			<br>
+			<p>OUR RUBIX CUBE LESSON WILL BEGIN NEXT WEEK SO KEEP WAITING, AND CHECKING FOR UPDATES.</p>
+			<br>
+			<p>On our blog page we will teach you kids a lot on how to do things that you think are ard easily.Please continue to stay on our blog page to get more updates on our "times and events". </p>
+			
+			
+			<div class="comment-box">
+			
+			    <h3>Leave a comment</h3>
+			
+			    <form action="blog-form.php" method="post">
+				    <input type="text" name="name" placeholder="Name"required>
+		            <input type="email" name="email" placeholder="Email"required>
+		            <textarea rows="5" name="message" placeholder="Comment" required></textarea>
+					<button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+			    </form>
+			</div>
+			
+			
+		</div>	
+		<div class="blog-right">
+		    <h3>Project Categories</h3>
+		    <div>	
+			    <span>Project Analytics</span>
+			    <span>1</span>	  
+		    </div>
+			<div>	
+			    <span>Building a Cardboard Car</span>
+			    <span>2</span>	  
+		    </div>
+			<div>	
+			    <span>Making A Boat</span>
+			    <span>3</span>	  
+		    </div>
+			<div>	
+			    <span>Solving A Rubix Cube</span>
+			    <span>4</span>	  
+		    </div>
+		</div>	
+    </div>
+
+</section>
+
+<!----- Footer -------->
+
+<section class="footer">
+    <h4>About Us</h4>
+	<p>We are a new team, that want to teach our interested<br> young kids simple things and build their talent</p>
+    <div class="icons">
+	    <i class="fa fa-facebook"></i>
+		<i class="fa fa-twitter"></i>
+		<i class="fa fa-instagram"></i>
+		<i class="fa fa-linkedin"></i>
+	</div>
+	<p>Made with <i class="fa fa-heart-o"></i> by Creating Land</p>
+</section>
+
+
+<!--------JavaScrpt for Toggle Menu------->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+	
+	function showMenu(){
+	    navLinks.style.right = "0";
+	}
+	function hideMenu(){
+	    navLinks.style.right = "-200px";
+	}	
+
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
